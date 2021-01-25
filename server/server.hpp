@@ -1,6 +1,6 @@
 /***
     This file is part of snapcast
-    Copyright (C) 2014-2020  Johannes Pohl
+    Copyright (C) 2014-2021  Johannes Pohl
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -26,7 +26,7 @@
 #include <sstream>
 #include <vector>
 
-#include "common/queue.h"
+#include "common/queue.hpp"
 #include "common/sample_format.hpp"
 #include "control_server.hpp"
 #include "jsonrpcpp.hpp"
